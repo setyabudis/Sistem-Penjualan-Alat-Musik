@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(../img/jefferson-santos-fCEJGBzAkrU-unsplash.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.bg-login {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-login {
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid black;
+    background-color: rgb(131, 117, 117);
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.box-login h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.input-control {
+    background-color: rgb(237, 245, 251);
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+}
+
+.btn {
+    width: 100px;
+    padding: 8px 0;
+    font-size: 12px;
+    background-color: rgb(63, 210, 63);
+    color: #f1f0f0;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-tambah {
+    width: 100px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    background-color: rgb(33, 129, 1);
+    color: #f1f0f0;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-tambah p a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn-edit {
+    width: 100px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    background-color: rgb(40, 28, 212);
+    color: #f1f0f0;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn-edit p a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn-hapus {
+    width: 100px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    background-color: rgb(255, 41, 41);
+    color: #f1f0f0;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn-hapus p a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    background-color: cyan;
+}
+
+header h1 {
+    float: left;
+    padding: 12px 0;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    padding: 20px 0 20px 15px;
+    display: inline-block;
+}
+
+footer {
+    padding: 25px 550px;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container h3,
+small {
+    color: #f1f0f0;
+}
+
+.section {
+    padding: 25px 0;
+}
+
+.box {
+    background-color: white;
+    border: 1px solid rgb(176, 176, 176);
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px 0 25px 0;
+}
+
+.tabel {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabel tr {
+    height: 30px;
+}
+
+.tabel tr td {
+    padding: 15px 10px;
+}
